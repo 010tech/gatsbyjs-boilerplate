@@ -1,0 +1,29 @@
+name: github-release
+
+# Run this workflow every time a new tag pushed to your repository
+on:
+  push:
+    # Pattern matched against refs/tags
+    tags:
+      - '*'           # Push events to every tag
+
+jobs:
+  # Set the job key. The key is displayed as the job name
+  # when a job name is not provided
+  github-release:
+    # Name the Job
+    name: Create a github release
+    # Set the type of machine to run on
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+      - run: yarn
+      - run: yarn run github-release
+        env:
+          CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{ secrets.CONVENTIONAL_GITHUB_RELEASER_TOKEN }}

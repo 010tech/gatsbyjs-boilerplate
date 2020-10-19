@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "@010tech/gatsbyjs-boilerplate",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "version": "1.0.0",
+  "repository": "git@github.com:010tech/gatsbyjs-boilerplate.git",
+  "author": "Gary Lai <garylai1990@gmail.com>",
   "dependencies": {
     "gatsby": "^2.24.79",
     "gatsby-image": "^2.4.21",
@@ -19,7 +20,26 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "babel-eslint": "10.1.0",
+    "commitizen": "4.2.1",
+    "conventional-github-releaser": "3.1.5",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "7.11.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-prettier": "6.13.0",
+    "eslint-config-react-app": "5.2.1",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.4",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "gatsby-plugin-eslint": "2.0.8",
+    "husky": "4.3.0",
+    "prettier": "2.1.2",
+    "standard-version": "9.0.0"
   },
   "keywords": [
     "gatsby"
@@ -32,13 +52,17 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "eslint --ext .jsx,.js ./src/",
+    "release": "standard-version -s --no-verify",
+    "github-release": "conventional-github-releaser -p angular -r 0"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/010tech/gatsbyjs-boilerplate/issues"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
