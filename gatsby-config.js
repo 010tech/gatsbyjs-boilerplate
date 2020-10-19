@@ -5,12 +5,14 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     siteUrl: process.env.SITE_URL,
+    siteName: `Site Name`,
     title: `Gatsby Default Starter`,
+    titleTemplate: `%s | Template`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    language: "zh-TW",
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-next-seo`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
