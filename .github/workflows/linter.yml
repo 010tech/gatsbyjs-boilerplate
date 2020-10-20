@@ -3,7 +3,6 @@ name: linter
 # Run this workflow every time a new commit pushed to your repository
 on: push
 
-
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
@@ -22,6 +21,3 @@ jobs:
         run: |
           yarn install
           yarn lint
-      - uses: reviewdog/action-setup@v1
-        with:
-          reviewdog_version: latest
