@@ -18,5 +18,10 @@ jobs:
       - uses: actions/setup-node@v2-beta
         with:
           node-version: '12'
-      - run: yarn
-      - run: yarn lint
+      - name: Run linter
+        run: |
+          yarn install
+          yarn lint
+      - uses: reviewdog/action-setup@v1
+        with:
+          reviewdog_version: latest
