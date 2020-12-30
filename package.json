@@ -45,7 +45,7 @@
     "gatsby-plugin-eslint": "2.0.8",
     "husky": "4.3.6",
     "prettier": "2.2.1",
-    "standard-version": "9.0.0",
+    "standard-version": "9.1.0",
     "tailwindcss": "2.0.2"
   },
   "keywords": [
