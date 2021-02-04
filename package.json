@@ -2,7 +2,7 @@
   "name": "@010tech/gatsbyjs-boilerplate",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "git@github.com:010tech/gatsbyjs-boilerplate.git",
   "author": "Gary Lai <garylai1990@gmail.com>",
   "dependencies": {
