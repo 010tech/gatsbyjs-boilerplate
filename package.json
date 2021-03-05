@@ -7,7 +7,7 @@
   "author": "Gary Lai <garylai1990@gmail.com>",
   "dependencies": {
     "dotenv": "8.2.0",
-    "gatsby": "3.0.1",
+    "gatsby": "3.0.3",
     "gatsby-image": "3.0.0",
     "gatsby-plugin-config": "1.0.7",
     "gatsby-plugin-manifest": "3.0.0",
