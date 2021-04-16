@@ -46,7 +46,7 @@
     "husky": "5.2.0",
     "prettier": "2.2.1",
     "standard-version": "9.1.1",
-    "tailwindcss": "2.0.4"
+    "tailwindcss": "2.1.1"
   },
   "keywords": [
     "gatsby"
