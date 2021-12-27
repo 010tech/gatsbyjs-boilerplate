@@ -4,7 +4,20 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "1.0.2",
   "repository": "git@github.com:010tech/gatsbyjs-boilerplate.git",
-  "authors": ["DBB <qeroer@gmail.com>","Pelic Hsu <pelicwei@gmail.com>","Gary Lai <garylai1990@gmail.com>"],
+  "contributors": [
+    {
+      "name": "DBB",
+      "email": "qeroer@gmail.com"
+    },
+    {
+      "name": "Pelic Hsu",
+      "email": "pelicwei@gmail.com"
+    },
+    {
+      "name": "Gary Lai",
+      "email": "garylai1990@gmail.com"
+    }
+  ],
   "dependencies": {
     "dotenv": "10.0.0",
     "gatsby": "3.14.6",
