@@ -39,8 +39,8 @@
     "react-helmet-async": "1.2.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.0.0",
-    "@commitlint/config-conventional": "16.0.0",
+    "@commitlint/cli": "16.2.3",
+    "@commitlint/config-conventional": "16.2.1",
     "babel-eslint": "10.1.0",
     "commitizen": "4.2.4",
     "conventional-github-releaser": "3.1.5",
