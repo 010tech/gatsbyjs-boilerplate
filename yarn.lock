@@ -9085,10 +9085,10 @@ gatsby-plugin-manifest@5.11.0:
     semver "^7.5.1"
     sharp "^0.32.1"
 
-gatsby-plugin-next-seo@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-next-seo/-/gatsby-plugin-next-seo-1.10.0.tgz#cca15fefe15e30c675721d440954da4826b80d21"
-  integrity sha512-G7oMbEucgREmfCpDgr2JLvcfGbk3981XhbZ6JJnFoKDL5B6A9wJqIfQpr/1wpD1GuFltDH3ZNxjUMTHUQjCnZw==
+gatsby-plugin-next-seo@1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-next-seo/-/gatsby-plugin-next-seo-1.11.0.tgz#f90e82c1f172005961a5e3db7ba904499941ae9c"
+  integrity sha512-4KVaaR0adxA7Gjn3JeRx18VofQn+eL5ATveY1YVi2+A0DT7eJjJeWqr6vsDWURcuIrl1+3gbtu/e2FvpITrOoQ==
   dependencies:
     "@babel/runtime" "^7.10.3"
     "@types/react-helmet" "^6.0.0"
