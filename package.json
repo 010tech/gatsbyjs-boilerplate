@@ -54,7 +54,7 @@
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react": "7.34.0",
     "eslint-plugin-react-hooks": "4.6.0",
     "gatsby-plugin-eslint": "4.0.4",
     "husky": "9.0.11",
