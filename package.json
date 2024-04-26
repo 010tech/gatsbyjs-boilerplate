@@ -35,8 +35,8 @@
     "gatsby-transformer-sharp": "5.13.1",
     "postcss": "8.4.38",
     "prop-types": "15.8.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-helmet-async": "2.0.4"
   },
   "devDependencies": {
@@ -55,7 +55,7 @@
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.34.1",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-hooks": "4.6.2",
     "gatsby-plugin-eslint": "4.0.4",
     "husky": "9.0.11",
     "prettier": "2.8.8",
