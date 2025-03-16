@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v2-beta
         with:
-          node-version: '12'
+          node-version: '22'
       - run: yarn
       - run: yarn run github-release
         env:
