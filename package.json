@@ -19,7 +19,7 @@
     }
   ],
   "dependencies": {
-    "dotenv": "17.2.2",
+    "dotenv": "17.2.3",
     "gatsby": "5.15.0",
     "gatsby-image": "3.11.0",
     "gatsby-plugin-config": "1.0.7",
