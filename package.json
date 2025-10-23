@@ -40,7 +40,7 @@
     "react-helmet-async": "2.0.5"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.28.4",
+    "@babel/eslint-parser": "7.28.5",
     "@commitlint/cli": "20.1.0",
     "@commitlint/config-conventional": "20.0.0",
     "commitizen": "4.3.1",
