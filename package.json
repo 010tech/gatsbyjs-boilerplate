@@ -35,8 +35,8 @@
     "gatsby-transformer-sharp": "5.16.0",
     "postcss": "8.5.14",
     "prop-types": "15.8.1",
-    "react": "19.2.5",
-    "react-dom": "19.2.5",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
     "react-helmet-async": "3.0.0"
   },
   "devDependencies": {
