@@ -59,7 +59,7 @@
     "eslint-plugin-react-hooks": "7.1.1",
     "gatsby-plugin-eslint": "4.0.4",
     "husky": "9.1.7",
-    "prettier": "2.8.8",
+    "prettier": "3.9.6",
     "prettier-plugin-tailwindcss": "0.4.1",
     "commit-and-tag-version": "13.0.0",
     "tailwindcss": "4.3.3"
