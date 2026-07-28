@@ -6678,10 +6678,10 @@ commander@^7.1.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
   integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
 
-commit-and-tag-version@13.1.0:
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/commit-and-tag-version/-/commit-and-tag-version-13.1.0.tgz#94393b3a0ed32a83112b02b6ba65e89a1d468db2"
-  integrity sha512-TqUrtbgZy/oiVbl11KphemSZH8023+qHn8r2tb7SoVL0SC5xdUQu/vd4lTMmwDZLOAdCivJibklb0DeoYyW0wg==
+commit-and-tag-version@13.1.2:
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/commit-and-tag-version/-/commit-and-tag-version-13.1.2.tgz#d4c5df577390a01224573cc575fb8f1ea6b3ec3d"
+  integrity sha512-NEBJycEVXM6XExM7k9WunQAIMccFAHv3/ZtmA2s4L0VI0P6srUwrbCoNbE+Exo2B86agc9/NVty4m3PAxGPgTA==
   dependencies:
     "@conventional-changelog/git-client" "3.1.0"
     chalk "^5.6.2"
@@ -6696,7 +6696,7 @@ commit-and-tag-version@13.1.0:
     figures "^3.2.0"
     find-up "^5.0.0"
     semver "^7.7.2"
-    yaml "^2.6.0"
+    yaml "^2.9.0"
     yargs "^17.7.2"
 
 commitizen@4.3.2:
@@ -18879,7 +18879,7 @@ yaml@^2.0.0:
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.2.1.tgz#3014bf0482dcd15147aa8e56109ce8632cd60ce4"
   integrity sha512-e0WHiYql7+9wr4cWMx3TVQrNwejKaEe7/rHNmQmqRjazfOP5W8PB6Jpebb5o6fIapbz9o9+2ipcaTM2ZwDI6lw==
 
-yaml@^2.6.0:
+yaml@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.9.0.tgz#78274afd93598a1dfdd6130df6a566defcbf9aa4"
   integrity sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA==
